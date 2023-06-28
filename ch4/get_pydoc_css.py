@@ -2,7 +2,7 @@ import requests, urllib, os, time, re
 from bs4 import BeautifulSoup
 
 # 저장 위치
-save_dir = './output/pydoc'
+save_dir = './ch4/output/pydoc'
 # 기준 URL
 pydoc_url = 'https://docs.python.org/ko/3/tutorial/'
 static_url = 'https://docs.python.org/ko/3/_static/'
